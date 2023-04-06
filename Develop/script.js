@@ -1,4 +1,8 @@
 // Assignment Code
+var lowerCase = 'abcdefghijklmnopqrstuvwxyz'
+var upperCase = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+var numericCharacters = '0123456789'
+var specialCharacters = '!@#$%^&*()'
 var generateBtn = document.querySelector("#generate");
 function generatePassword() {
   var passwordLength = prompt("How many letter do you want in your password")
@@ -21,6 +25,9 @@ function generatePassword() {
     console.log('Cannot be more than' + 128 + 'letters long')
   } else {
     console.log('Password is valid')
+  }
+  if(lowercaseConfirm = false){
+    console.log()
   }
 
   // return "Hello World"
