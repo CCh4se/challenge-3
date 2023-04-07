@@ -19,10 +19,10 @@ function generatePassword() {
   console.log(specialcharactersConfirm);
 
 
-  if(passwordLength < 8 || passwordLength > 128){
+  if(passwordLength > 128 || passwordLength < 8){
     console.log('Must be at least 8 letters long or less than 128 letters');
   } else { 
-    generatePassword();
+    base.push(passwordLength);
   }
   if(lowercaseConfirm = false){
     console.log('Password will not include lowercase letters')
@@ -55,10 +55,8 @@ function generatePassword() {
 function writePassword() {
   var password = generatePassword();
   var passwordText = document.querySelector("#password");
-    for (var i = 0; i < passwordLength; i++) {
-      var generatePassword = Math.floor(Math.random() *(upperCase.length + lowerCase.length));
-      
-    }
+   // for (var i = 0; i < passwordLength; i++) {
+     // var generatePassword = Math.floor(Math.random() *(upperCase.length + lowerCase.length));}
 
   passwordText.value = password;
 
