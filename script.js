@@ -25,22 +25,22 @@ function generatePassword() {
     base.push(passwordLength);
   }
   if(lowercaseConfirm = false){
-    console.log('Password will not include lowercase letters')
+    console.log('Password will not include lowercase letters');
   } else {
     base.push(lowerCase);
   }
   if(uppercaseConfirm = false){
-    console.log('Password will not include uppercase letters')
+    console.log('Password will not include uppercase letters');
   } else {
     base.push(upperCase);
   }
   if(numericConfirm = false){
-    console.log('Password will not include numeric characters')
+    console.log('Password will not include numeric characters');
   } else {
     base.push(numericCharacters);
   }
   if(specialcharactersConfirm = false){
-    console.log('Password will not incldue special characters')
+    console.log('Password will not incldue special characters');
   } else {
     base.push(specialCharacters);
   }
