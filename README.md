@@ -3,6 +3,7 @@
 ## Password Generator 
 
 # Screenshot
+![Generator](https://user-images.githubusercontent.com/127711552/235051238-b6de9d03-2df2-4985-8fcb-7f197dffb222.PNG)
 
 # Description 
 For this project we were tasked with taking what we learned in class about javascript and apply that by creating a password generator. This was to be done by having prompts appear when clicking on the "Generate Password" button and selecting whether you would like to select certain fields. I was very close to getting the last bit of the code finshed, but I noticed I was doing more harm to my code that good.
